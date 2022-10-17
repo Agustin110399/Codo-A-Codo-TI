@@ -1,9 +1,54 @@
-a img{
+a img {
     width: 100px;
-    height: 40px    
+    height: 40px
 }
 
 
-.navbar-gray{
+.navbar-gray {
     background-color: #454545 !important;
+}
+
+.img-banner {
+    background-image: url("../src/ba1.jpg") !important;
+    background-color: #cccccc;
+    /* Used if the image is unavailable */
+    height: 500px;
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    display: grid;
+}
+
+.text-banner {
+    padding-left: 50%;
+    padding-top: 15%;
+    text-align: end;
+}
+
+.text-banner h1, .text-banner p{
+    color: white;
+}
+
+.container-cards{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card {
+    width: 33%;
+    margin: 5px;
+}
+
+div p {
+    color: black;
+}
+
+.card img{
+    width: auto;
+    height: 400px;
 }
