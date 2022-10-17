@@ -93,6 +93,37 @@ picture img{
 
 /* body formulario de convierte en orador */
 
+.form-oradores{
+    margin-top: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+.btn-submit{
+    background-color: #09d751;
+    color: white;
+    width: 100%;
+}
+
+.form-oradores h4, .form-oradores h5{
+    text-transform: uppercase;
+}
+
+.form-oradores h4{
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.form-oradores h5{
+    font-size: 30px;
+}
+
+p span{
+    border-bottom:3px dotted black;
+    text-decoration:none;
+}
+
 /* footer */
 
 /* media queries*/
