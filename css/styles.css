@@ -49,11 +49,12 @@ div h3{
 
 .container-cards{
     display: flex;
-    padding: 0 100px 0 100px;
+    padding: 0 100px 0 100px !important;
 }
 
 .card {
-    width: 33%;
+    width: 100%;
+    height: 600px;
     margin: 20px;
 }
 
@@ -68,6 +69,31 @@ div p {
 
 /* body seccion de informacion de buenos aires */
 
+picture img{
+    width: 100%;
+}
+
+.row{
+    padding: 0;
+    margin: 0;
+}
+
+.honolulu-banner{
+    display: flex;
+}
+
+.honolulu-info{
+    background-color: #454545;
+    padding: 25px;
+}
+
+.honolulu-info h4, .honolulu-info p{
+    color: white;
+}
+
 /* body formulario de convierte en orador */
 
 /* footer */
+
+/* media queries*/
+
