@@ -102,6 +102,7 @@ picture img{
 
 .btn-submit{
     background-color: #09d751;
+    border-color: #09d751;
     color: white;
     width: 100%;
 }
@@ -125,6 +126,19 @@ p span{
 }
 
 /* footer */
+
+.footer-links{
+    height: 75px;
+    background-color: rgb(28, 103, 157);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-links a{
+    color: white;
+    text-decoration: none;
+}
 
 /* media queries*/
 
